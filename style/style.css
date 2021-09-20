@@ -1,0 +1,122 @@
+.upperNav {
+}
+
+.subUpperNav {
+    text-align: center;
+    background-color: #17a2b8;
+    padding: 10px
+}
+
+.main-nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logoImg {
+    width: 10rem;
+}
+
+.hero-image {
+    background-image: url("../images/pictures/GroundSolarPanel.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1:after {
+    content: '';
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: 65px;
+  border-bottom: 2px solid;
+}
+
+.needs {
+    padding: 145px;
+    text-align: center;
+    height: 500px;
+}
+
+.needs h4{
+    padding-top: 50px;
+    font-size: 18px;
+    color: gray;
+}
+
+.needs h1:after {
+    content: '';
+  position: absolute;
+  width: 80%;
+  height: 0;
+  left: 85px;
+  bottom: 285px;
+  border-bottom: 2px solid;
+}
+
+.services-image {
+    background-image: url("../images/pictures/RoofSolar4.JPG");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.services-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.services-text h4 {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.services-text h1:after {
+    content: '';
+  position: absolute;
+  width: 75%;
+  height: 0;
+  left: 95px;
+  bottom: 95px;
+  border-bottom: 2px solid;
+}
+
+.cards {
+    margin: 100px;
+}
+
+.card {
+    padding: 30px;
+    height: 35rem;
+}
+
+.card-title {
+    border-bottom: 2px solid;
+    color: white;
+    font-size: 30px;
+}
+
+.card-text {
+    padding-top: 60px;
+    color: white;
+}
