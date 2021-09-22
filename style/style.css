@@ -107,7 +107,7 @@
 
 .card {
     padding: 30px;
-    height: 35rem;
+    min-height: 30rem;
 }
 
 .card-title {
